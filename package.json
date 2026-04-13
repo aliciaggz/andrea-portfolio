@@ -12,6 +12,7 @@
     "@astrojs/vue": "^5.1.1",
     "@fontsource/libre-baskerville": "^5.2.8",
     "@fontsource/poppins": "^5.2.7",
+    "@vercel/analytics": "^2.0.1",
     "astro": "^5.14.4",
     "imagesloaded": "^5.0.0",
     "masonry-layout": "^4.2.2",

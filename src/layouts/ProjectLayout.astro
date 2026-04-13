@@ -14,6 +14,8 @@ import Arrow from '@/assets/arrow-right.svg';
 
 import '../styles/global.scss';
 import ArrowButton from '@/components/atoms/ArrowButton.vue';
+import Analytics from '@vercel/analytics/astro'
+
 
 
 const { currentProjectId } = Astro.props;
@@ -55,6 +57,7 @@ const nextProject = projects[nextIndex];
       </script>
     )}
 		<ClientRouter />
+		<Analytics />
 		<title>Andrea</title>
 	</head>
 	<body>

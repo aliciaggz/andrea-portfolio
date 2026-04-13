@@ -11,6 +11,7 @@ import { ClientRouter } from 'astro:transitions';
 import '../styles/global.scss';
 import ArrowButton from '@/components/atoms/ArrowButton.vue';
 import CookieBanner from '@/components/atoms/CookieBanner.vue';
+import Analytics from '@vercel/analytics/astro'
 ---
 
 <!doctype html>
@@ -30,6 +31,7 @@ import CookieBanner from '@/components/atoms/CookieBanner.vue';
       </script>
     )}
 		<ClientRouter />
+    <Analytics />
 		<title>Andrea</title>
 	</head>
 	<body>
